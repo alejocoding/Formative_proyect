@@ -11,7 +11,7 @@
 <body>
 
 
-   <?php include('templates/header.php')?>
+   <?php include('template/header.php')?>
    
 
    
@@ -83,7 +83,7 @@
     
 
 
-    <?php include("templates/footer.php") ?>
+    <?php include("template/footer.php") ?>
 <script src="js/js.js"></script>
 </body>
 

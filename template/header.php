@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -25,11 +24,11 @@
                             
                             <ul class="listaheader">
 
-                                <li class="listaMenu"><a href="../../SFR/index.php"><b>Inicio</b></a></li>
+                                <li class="listaMenu"><a href="index.php"><b>Inicio</b></a></li>
                                 <li class="listaMenu"><a href=""><b>|</b></a></li>
-                                <li class="listaMenu"><a href="../../SFR/templates/headerSites/sobreNosotros.php"><b>Sobre Nosotros</b></a></li>
+                                <li class="listaMenu"><a href="../sobreNosotros.php"><b>Sobre Nosotros</b></a></li>
                                 <li class="listaMenu"><a href=""><b>|</b></a></li>
-                                <li class="listaMenu"><a href="../../SFR/contactanos.php"><b>Contactanos</b></a></li>
+                                <li class="listaMenu"><a href="../contactanos.php"><b>Contactanos</b></a></li>
                                 <li class="listaMenu"><a href=""><b>|</b></a></li>
                                 
                             </ul>

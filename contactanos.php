@@ -10,7 +10,7 @@
 <body>
     
 
-    <?php include("../SFR/templates/header.php") ?>
+    <?php include("../SFR/template/header.php") ?>
 
     <div class="contactanos">
 

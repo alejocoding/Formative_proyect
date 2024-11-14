@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    align-items: center;
+}
+section{
+    padding-left: 200px;
+    padding-right: 200px;
+    width: 80%;
+    height: auto;
+}
+
+.nosotros_1{
+    width: 100%;
+    display: flex;
+}
+
+.izquierda{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+.derecha{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.derecha h1{
+    padding-bottom: 20px;
+    align-self: flex-start;
+}
+
