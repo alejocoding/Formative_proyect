@@ -7,7 +7,7 @@ body{
 }
 section{
     
-    width: 80%;
+    width: 95%;
     height: auto;
 }
 
@@ -37,3 +37,13 @@ section{
     align-self: flex-start;
 }
 
+@media screen {
+    .izquierda{
+        padding-left: 150px ;
+        padding-right: 100px;
+    }
+    .derecha{
+        width: 700px;
+    }
+    
+}
