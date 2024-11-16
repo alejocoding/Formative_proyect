@@ -6,8 +6,7 @@ body{
     align-items: center;
 }
 section{
-    padding-left: 200px;
-    padding-right: 200px;
+    
     width: 80%;
     height: auto;
 }
@@ -18,7 +17,8 @@ section{
 }
 
 .izquierda{
-    width: 50%;
+    width: 30%;
+    padding-left: 330px;
     display: flex;
     align-items: center;
     justify-content: center;
