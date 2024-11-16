@@ -6,9 +6,8 @@ body{
     align-items: center;
 }
 section{
-    padding-left: 200px;
-    padding-right: 200px;
-    width: 80%;
+    
+    width: 95%;
     height: auto;
 }
 
@@ -18,7 +17,8 @@ section{
 }
 
 .izquierda{
-    width: 50%;
+    width: 30%;
+    padding-left: 330px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,3 +37,13 @@ section{
     align-self: flex-start;
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .izquierda{
+        padding-left: 150px ;
+        padding-right: 100px;
+    }
+    .derecha{
+        width: 700px;
+    }
+    
+}
