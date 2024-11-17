@@ -32,10 +32,12 @@ section{
     justify-content: center;
     
 }
-.derecha h1{
+.derecha h1{ 
     padding-bottom: 20px;
     align-self: flex-start;
 }
+
+
 
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
     .izquierda{
