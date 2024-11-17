@@ -104,7 +104,7 @@
 
 
     </div>
-    <img class="encuentranos" src="assets/img/Ubicacion.png" width="330px" height="330px" alt="">
+    <img class="encuentranos" src="assets/img/Ubicacion.png" width="380px" height="330px" alt="">
 
 
     </section>
