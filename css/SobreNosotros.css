@@ -37,15 +37,100 @@ section{
     align-self: flex-start;
 }
 
+.valores{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nuestrosvalores{
+    font-weight: bolder;
+    font-size: 50px;
+    color: rgb(97, 180, 239);
+}
+
+.iconsText{
+    display: flex;
+    flex-direction: column;
+}
 
 
-@media screen and (min-width: 1024px) and (max-width: 1440px) {
-    .izquierda{
-        padding-left: 150px ;
-        padding-right: 100px;
+.iconosImagenes{
+    width: 77px;
+    margin-top: 190px;
+    margin-bottom: 100px;
+    position: relative;
+    height: 90px;
+    float: right;
+    right: 148px;
+    margin-left: 345px;
+    margin-right: 97px;
+}
+
+
+.titulosValores{
+    width: 77px;
+    margin-top: 190px;
+    position: absolute;
+    height: 90px;
+    float: right;
+    right: 131px;
+    margin-left: 502px;
+    margin-right: 312px;
+}
+
+.subTitulos .subTitulosTexto{
+    display: flex;
+    flex-direction: row;
+}
+
+.subtitulosh3{
+    width: 77px;
+    margin-top: 190px;
+    position: relative;
+    height: 90px;
+    top: -654px;
+    float: right;
+    margin-bottom: 100px;
+    right: 137px;
+    margin-left: 302px;
+    margin-right: 153px;
+    color: rgb(97, 180, 239);
+    font-size: 30px;
+}
+
+.subtitulosh3V2{
+    font-weight: 500;
+    font-size: larger;
+    color: black;
+    margin-top: 190px;
+    width: 581px;
+    position: relative;
+    height: 83px;
+    top: -1357px;
+    float: right;
+    margin-bottom: 95px;
+    right: 1px;
+    margin-left: -43px;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .izquierda,
+    .derecha {
+        max-width: 100%; /* Hacer que las secciones ocupen todo el ancho */
     }
-    .derecha{
-        width: 700px;
+
+    .derecha h1 {
+        text-align: center;
     }
-    
+
+    .nuestrosvalores {
+        font-size: 1.5rem;
+}
 }
