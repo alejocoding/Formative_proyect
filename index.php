@@ -13,7 +13,7 @@
 
    <?php include('template/header.php')?>
    
-
+    
    
     <div class="center_square">
         <img src="assets/img/indeximg/Center_Square.png" class="img_center_square" alt="">
